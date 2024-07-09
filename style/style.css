@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-font-details {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300-800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    max-width: 100%;
+    width: 1140px;
+    height: 100vh;
+    background: #FFF8F3;
+    /* padding:5px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    /* margin: 50px 30px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav h1 {
+    font-size: 35px;
+    margin: 42px 140px;
+    padding-left: 20px;
+}
+
+nav h1 span {
+    color: #FD6E0A;
+}
+
+nav .list-items {
+    display: flex;
+
+}
+
+nav .list-items ul {
+    display: flex;
+
+}
+
+nav .list-items ul li {
+    margin: 60px 40px;
+    list-style-type: none;
+    
+}
+
+nav .list-items ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    padding:10px;
+    color: #474747;
+}
+
+nav button {
+    width: 130px;
+    height: 45px;
+    background: #FD6E0A;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding:10px 5px;
+    margin:50px 200px 50px 30px;
+}
+
+.aside-section {
+    width: auto;
+    height: 660px;
+    position: absolute;
+    top:45px;
+    left: 10px;
+   
+}
+
+.aside-section img {
+    width: auto;
+    height: 100%;
+    padding:0px 10px
+}
+
+.img-background {
+    width: 650px;
+    height: 450px;
+
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+.img-background img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.mary-img {
+    width: 530px;
+    height: 580px;
+    position: absolute;
+    top: -130px;
+    right: 10px;
+}
+
+.mary-img img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px 0px;
+}
+
+.about-mary{
+  
+    width:500px;
+    position:absolute;
+    top:40%;
+    left:138px;
+    padding: 0 10px;
+    text-align: left;
+}
+.about-mary #p1{
+    font-size:23px;
+    font-weight:500 ;
+    opacity:0.7;
+    padding:5px 10px;
+   
+}
+.about-mary #p2{
+    font-size:45px;
+    font-weight:500;
+    letter-spacing: 2px;
+    padding:0 7px;
+    margin-bottom:-15px;
+}
+.about-mary #p3{
+    padding:0 8px;
+    text-align:left;
+    opacity: 0.8;
+    font-size:13px;
+} 
+.contact a{
+ 
+
+   text-decoration: none;
+
+  
+}
+.contact a button{
+    width: 150px;
+    height:45px;
+    padding:10px;
+    margin:20px 10px;
+    letter-spacing:1px;
+    border:none;
+    outline: none;
+    border-radius:5px;
+    font-weight: 630;
+}
+#btn1{
+    color:#fff;
+    background:#FD6E0A;
+}
+#btn2{
+    color: #FD6E0A;
+    background: #fff;
+    border:1px solid #FD6E0A;
+}
+#btn1 i{
+     margin-right: 4px;
+}
+#btn2 i {
+    margin-right:4px ;
+}
